@@ -1,4 +1,4 @@
-# @cdc3/nestjs-api
+# @api/nestjs-api
 
 This is a part of video tutorials This Video is a Part of the playlist "Building Microservices and Deploying for SAAS Product" and  it covers all about building microservices for Enterprise World
 
