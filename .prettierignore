@@ -1,0 +1,10 @@
+# Custom
+/build/**
+/dist/**
+/coverage/**
+/insomnia/**
+/infra/cdk.out/**
+node_modules/**
+package-lock.json
+package.json
+tmp

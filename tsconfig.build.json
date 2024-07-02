@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "declaration": false,
+    "removeComments": true,
+    "sourceMap": false,
+    "incremental": false
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "coverage",
+    "infra",
+    "build",
+    "dist",
+    "**/*spec.ts",
+    "**/*mocks.ts"
+  ]
+}

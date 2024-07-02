@@ -1,0 +1,26 @@
+# Node.js
+node_modules
+npm-debug.log
+dist
+newrelic_agent.log
+.DS_Store
+newrelic_agent.log
+build
+dist
+*.zip
+# Tests
+.vscode
+build
+dist
+coverage
+.nyc_output
+.nycrc
+# Docker
+docker-compose.override.yml
+.env
+dist/*
+dist
+
+# IDEs
+.vscode/*
+*.zip

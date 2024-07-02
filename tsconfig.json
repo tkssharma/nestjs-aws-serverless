@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@event-listener/*": ["event-listener/*"],
+      "@lib/*": ["lib/*"]
+    }
+  }
+}
